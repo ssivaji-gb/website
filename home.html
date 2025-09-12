@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathirabathi Sivaji</title>
+    <link rel="icon" type="image/x-icon" href="sivajilogo.svg">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        /* ---------------------------------------------------------------header-container-------------------------------------------------------- */
+        .header-container {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+
+        }
+
+        .profile-box {
+            padding: 5px;
+            gap: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .nav-menu {
+            display: flex;
+            text-align: end;
+            flex-direction: row;
+            list-style: none;
+            gap: 20px;
+            padding-right: 10px;
+        }
+
+        .a {
+
+            text-decoration: none;
+            gap: 40px;
+            color: black;
+            border-radius: 3px;
+            font-size: 20px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .role-name {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        /* ---------------------------------------------------------------------------------- */
+        main {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        /* --------------------------------------------------projects-container-------------------------------- */
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .head {
+            padding: 10px;
+        }
+
+        .ul {
+            margin: 10px;
+            border-radius: 3px;
+            list-style-type: none;
+            background-color: gainsboro;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .project-ul {
+            margin: 10px;
+            border-radius: 3px;
+            list-style-type: none;
+            background-color: gainsboro;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .p-li {
+            border-bottom: 1px solid grey;
+            width: 250px;
+            padding: 10px;
+        }
+
+        /* ---------------------------------------------------experience-container-------------------------------------------- */
+        #Visit-my {
+
+            background-color: gainsboro;
+            box-shadow: -5px -5px 5px rgb(255, 251, 251), 5px 5px 5px rgba(85, 85, 85, 0.781);
+            margin-left: 10px;
+            padding: 4px 0px 4px 0;
+            text-decoration: none;
+
+        }
+
+        /* -------------------------------------education-container------------------------------------------------- */
+        .cl {
+            padding: 10px;
+        }
+
+        /* ----------------------------------------reviews-container-------------------------------------------------------------- */
+        .reviews-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px;
+
+        }
+
+        .review-card {
+            margin: 10px;
+            height: 80px;
+            border-radius: 15px;
+            text-align: center;
+            padding: 10px;
+            background-color: gainsboro;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+        /* ------------------------------------footer---------------------------------------------------------- */
+        footer{
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- --------------------------------header - section ------------------------------- -->
+
+    <header>
+        <div class="header-container">
+            <div class="profile-box">
+               <a href="home.html"><img  src="sivajilogo.svg" alt="logo" width="40px"></a> 
+
+
+                <h2>SATHIRABATHI SIVAJI R</h2>
+
+            </div>
+
+            <div class="nav-menu">
+                <nav>
+                    <ul>
+                        <a class="a" href="home.html">Home</a> /
+                        <a class="a" href="articles.html">Articles</a> /
+                        <a class="a" href="projects.html">Projects</a> /
+                        <a class="a" href="contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <div class="role-name">
+            <h1 >Frontend Developer</h1>
+            <p >html only with proper layout, no styling
+            </p>
+        </div>
+
+    </header>
+    <!-- ----------------------------------------projects-------------------------------------------- -->
+    <main>
+
+        <div class="projects-container">
+            <h2 class="head">Project</h2>
+            <div class="project-item">
+                <ul class="project-ul">
+                    <li class="p-li">HTML Only Portfolio</li>
+                    <li class="p-li">Calculator</li>
+
+                    <li class="p-li">Quiz App</li>
+
+                    <li class="p-li">Countdown Timer</li>
+
+                    <li class="p-li">Product Upcoming Page</li>
+                </ul>
+
+
+            </div>
+
+        </div>
+        <!-- -------------------------------------------------------------------------------------------------------------------------------------experience--------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <div class="experience-container"
+            style="height: 350px;align-items: center; border-left: 1px solid black; border-right: 1px solid black; ">
+            <h2 class="head">Work Experience</h2>
+            <h3 class="head">roadmap.sh</h3>
+            <p class="head">Solved all the frontend projects </p>
+            <a class="head" id="Visit-my"
+                href="https://www.linkedin.com/in/sathirabathi-sivaji-rathinasabapathi-410406383/" style="    ">Visit my
+                Profile</a>
+
+            <hr style="border-top: 1px solid black;border-radius: 2px 2px ; margin-top: 20px; ">
+
+
+            <h3 class="head">OpenSource Work</h3>
+            <p class="head">Contributed to 50 open-source projects.
+                Made my own projects with 200 GitHub Stars.</p>
+            <a class="head" id="Visit-my" href="https://github.com/ssivaji-gb">Visit my GitHub Profile</a>
+
+        </div>
+        <!-- -------------------------------------------------------------------------------------------------------------------education---------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div class="education-container">
+            <h2 class="head">Education</h2>
+            <p class="head">CGPA. Won Acme Hackathon Organized 30 sessions</p>
+
+            <h3 class="head">Courses I look:</h3>
+            <div class="courses-list">
+                <ul class="ul">
+                    <li class="cl">Discreet Mathematics</li>
+                    <li class="cl">Database Management Systems</li>
+                    <li class="cl">Distributed Database Systems</li>
+                    <li class="cl">Computer Graphics</li>
+                    <li class="cl">Human Computer Interaction</li>
+                    <li class="cl">Web Engineering - Artificial Intelligence</li>
+                    <li class="cl">Structures and Algorithms</li>
+                    <li class="cl">Object Oriented Programming Data</li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <!---------------------------------------------------------------------------------------------------------------------------------------------reviews--------------------------------------------------------------------------------------------------------------------->
+    <article>
+        <h4 class="head">Reviews from my Teachers</h4>
+        <div class="reviews-container">
+
+            <div class="review-card">
+                <p>John doe was a brilliant student; always stood <br>
+                    out with his assignments.”
+                    — Jane Doe, Assistant Professor
+                </p>
+            </div>
+            <div class="review-card">
+                <p>ohn doe was a brilliant student; always stood <br>
+                    out with his assignments.”
+                    — Jane Doe, Assistant Professor</p>
+
+            </div>
+            <div class="review-card">
+                <p>“John doe was a brilliant student; always stood <br>
+                    out with his assignments.”
+                    — Jane Doe, Assistant Professor</p>
+
+            </div>
+        </div>
+    </article>
+    <!-- -----------------------------------------------------------------------footer------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+    <footer>
+        <p>© all rights reserved 2025</p>
+    </footer>
+
+
+</body>
+
+</html>

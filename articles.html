@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathirabathi Sivaji</title>
+    <link rel="icon" type="image/x-icon" href="sivajilogo.svg">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        /* ---------------------------------------------------------------header-container-------------------------------------------------------- */
+        .header-container {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+
+
+        }
+
+        .profile-box {
+            padding: 5px;
+            gap: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .nav-menu {
+            display: flex;
+            text-align: end;
+            flex-direction: row;
+            list-style: none;
+            gap: 20px;
+            padding-right: 10px;
+        }
+
+        .a {
+
+            text-decoration: none;
+            gap: 40px;
+            color: black;
+            border-radius: 3px;
+            font-size: 20px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .role-name {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        /* ----------------------------------------------------article-container-------------------------------------------------------------------------------------- */
+        .article-container {
+            width: 70%;
+            break-before: auto;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            background-color: gainsboro;
+            border-radius: 9px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+
+        }
+
+        .article-header {
+            text-align: center;
+            line-height: 30px;
+            padding: 40px;
+
+            border-radius: 9px;
+
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .section {
+            line-height: 40px;
+            padding: 40px;
+            border-radius: 9px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .section-head {
+            background-color: gainsboro;
+            border-radius: 5px;
+            max-width: fit-content;
+            box-shadow: -5px -5px 5px rgb(255, 251, 251), 5px 5px 5px rgba(85, 85, 85, 0.781);
+
+
+
+        }
+
+        /* ------------------------------------------------------------------------------------------footer----------------------------------------------------------------------------------------------------------- */
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- --------------------------------header - section ------------------------------- -->
+
+    <header>
+        <div class="header-container">
+            <div class="profile-box">
+                <a href="home.html"><img src="sivajilogo.svg" alt="logo" width="40px"></a>
+
+
+                <h2>SATHIRABATHI SIVAJI R</h2>
+
+            </div>
+
+            <div class="nav-menu">
+                <nav>
+                    <ul>
+                        <a class="a" href="home.html">Home</a> /
+                        <a class="a" href="articles.html">Articles</a> /
+                        <a class="a" href="projects.html">Projects</a> /
+                        <a class="a" href="contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <div class="role-name">
+            <h1 >Frontend Developer</h1>
+            <p >html only with proper layout, no styling
+            </p>
+        </div>
+
+    </header>
+    <!-- ------------------------------------------------------------------------------------------------------------article----------------------------------------------------------------------------------------------- -->
+    <article class="article-container" >
+        <div class="article-header">
+            <h3 lass="article-header">The Fundamentals of Frontend Development</h3>
+            <p style="text-align: left;">Published on: October 3, 2024</p>
+        </div>
+        <div class="section">
+            <h4 class="section-head">What is Frontend Development?</h4>
+            <p>Frontend development refers to the creation of the user interface and experience in a web application.
+                It involves designing and implementing the visual aspects of a website, which users interact with
+                directly.</p>
+        </div>
+        <div class="section">
+            <h4 class="section-head"> Technologies Used in Frontend Development</h4>
+            <p>Frontend developers primarily work with three core technologies:</p>
+            <p><b>HTML:</b> The markup language that structures the content on a webpage.</p>
+            <p><b>CSS:</b> The style sheet language used to control the presentation and design of the webpage.
+            </p>
+            <p><b>JavaScript:</b> The programming language used to create interactive and dynamic elements on the
+                webpage.
+            </p>
+        </div>
+        <div class="section">
+            <h4 class="section-head">Why is Frontend Development Important?</h4>
+            <p>The frontend is crucial because it is the first point of contact between users and the website.
+                A well-designed and responsive interface can significantly enhance the user experience, making it easier
+                for users to navigate and interact with the website.
+            </p>
+
+        </div>
+    </article>
+    <!-- -----------------------------------------------------------------------footer------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+    <footer>
+        <p>© all rights reserved 2025</p>
+    </footer>
+
+
+</body>
+
+</html>

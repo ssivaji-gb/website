@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathirabathi Sivaji</title>
+    <link rel="icon" type="image/x-icon" href="sivajilogo.svg">
+ <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        /* ---------------------------------------------------------------header-container-------------------------------------------------------- */
+        .header-container {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+
+
+        }
+
+        .profile-box {
+            padding: 5px;
+            gap: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .nav-menu {
+            display: flex;
+            text-align: end;
+            flex-direction: row;
+            list-style: none;
+            gap: 20px;
+            padding-right: 10px;
+        }
+
+        .a {
+
+            text-decoration: none;
+            gap: 40px;
+            color: black;
+            border-radius: 3px;
+            font-size: 20px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .role-name {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        /* ----------------------------------------------------------------------------------------------projects-container--------------------------------------------------------------------------------------------------------------------------- */
+.project-head{
+    text-align: center;
+    padding: 30px;
+}
+          .projects-container{
+            width: 50%;
+            break-before: auto;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            background-color: gainsboro;
+            border-radius: 9px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+          }
+          h4{
+            background-color: gainsboro;
+            border-radius: 5px;
+            max-width: fit-content;
+            box-shadow: -5px -5px 5px rgb(255, 251, 251), 5px 5px 5px rgba(85, 85, 85, 0.781);
+
+          }
+          .project-card{
+            line-height: 40px;
+            padding: 40px;
+          }
+
+          h5{
+            background-color: gainsboro;
+            border-radius: 5px;
+            max-width: fit-content;
+            box-shadow: -5px -5px 5px rgb(255, 251, 251), 5px 5px 5px rgba(85, 85, 85, 0.781);
+          }
+          
+        /* ------------------------------------------------------------------------------------------footer----------------------------------------------------------------------------------------------------------- */
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- --------------------------------header - section ------------------------------- -->
+
+    <header>
+        <div class="header-container">
+            <div class="profile-box">
+                <a href="home.html"><img src="sivajilogo.svg" alt="logo" width="40px"></a>
+
+
+                <h2>SATHIRABATHI SIVAJI R</h2>
+
+            </div>
+
+            <div class="nav-menu">
+                <nav>
+                    <ul>
+                        <a class="a" href="home.html">Home</a> /
+                        <a class="a" href="articles.html">Articles</a> /
+                        <a class="a" href="projects.html">Projects</a> /
+                        <a class="a" href="contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <div class="role-name">
+            <h1 class="head">Frontend Developer</h1>
+            <p class="head">html only with proper layout, no styling
+            </p>
+        </div>
+
+    </header>
+    <!-- -----------------------------------------------------------------------------------------------------------------------projects------------------------------- -->
+    <div class="projects-container " >
+        <h2 class="project-head">Featured Projects</h2>
+        <div class="project-card">
+            <h4>HTML Only Portfolio</h4>
+            <p> A basic portfolio website built using only HTML, without any CSS or JavaScript.
+
+                Demonstrates the foundational structure of a website using semantic HTML elements.
+
+
+            </p>
+            <h5>Viwe Project</h5>
+
+        </div>
+        <div class="project-card">
+            <h4>Calculator App</h4>
+            <p>A simple calculator web application built using JavaScript, HTML, and CSS.
+
+                Helped to learn about DOM manipulation and event handling in JavaScript.
+            </p>
+            <h5>Viwe Project</h5>
+        </div>
+        <div class="project-card">
+            <h4>Quiz App</h4>
+            <p> A responsive quiz application that allows users to answer multiple-choice questions.
+
+                Built using HTML, CSS, and JavaScript; stores the user’s score at the end.
+            </p>
+            <h5>Viwe Project</h5>
+
+        </div>
+        <div class="project-card">
+            <h4>Countdown Timer</h4>
+            <p> Small project that demonstrates the use of JavaScript for time-based functionality.
+
+                The timer counts down to a specific date or event.
+            </p>
+            <h5>Viwe Project</h5>
+
+        </div>
+        <div class="project-card">
+            <h4>Product Launch Page</h4>
+            <p> Mockup landing page for a product launch.
+
+                Fully responsive and visually appealing using Flexbox and CSS Grid techniques.
+            </p>
+            <h5>Viwe Project</h5>
+
+        </div>
+
+    </div>
+    <!-- -----------------------------------------------------------------------footer------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+     <footer>
+        <p>© all rights reserved 2025</p>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathirabathi Sivaji</title>
+    <link rel="icon" type="image/x-icon" href="sivajilogo.svg">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        /* ---------------------------------------------------------------header-container-------------------------------------------------------- */
+        .header-container {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+
+        }
+
+        .profile-box {
+            padding: 5px;
+            gap: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .nav-menu {
+            display: flex;
+            text-align: end;
+            flex-direction: row;
+            list-style: none;
+            gap: 20px;
+            padding-right: 10px;
+        }
+
+        .a {
+
+            text-decoration: none;
+            gap: 40px;
+            color: black;
+            border-radius: 3px;
+            font-size: 20px;
+            box-shadow:
+                -5px -5px 5px rgb(255, 251, 251),
+                5px 5px 5px rgba(85, 85, 85, 0.781);
+        }
+
+        .role-name {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+/* ----------------------------------------------contact----------------------------------------------------- */
+        .contact-container{
+             width: 70%;
+             line-height: 40px;
+            break-before: auto;
+            text-align: center;
+            text-align: justify;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            border-radius: 9px;
+            
+        }
+
+        #formcontainer{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-head{
+            text-align: center;
+        }
+
+        .form {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .line-input{
+            padding-bottom: 5px;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            font-size: 15px;
+            background: transparent;
+           
+
+        }
+    .msg{
+        margin-top: 10px;
+        height: 80px;
+        width: 100%;
+        background-color: gainsboro;
+        
+    }
+    .btn{
+        align-items: center;
+        max-width: fit-content;
+    }
+    button{
+        background-color: gainsboro;
+        color: rgb(106, 106, 230);
+        border: none;
+        font-weight: 100;
+        
+
+    }
+/* ----------------------------------------------footer---------------------------------------- */
+    footer{
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+ 
+    </style>
+
+</head>
+
+<body>
+    <!-- --------------------------------header - section ------------------------------- -->
+
+    <header>
+        <div class="header-container">
+            <div class="profile-box">
+               <a href="home.html"><img  src="sivajilogo.svg" alt="logo" width="40px"></a> 
+
+
+                <h2>SATHIRABATHI SIVAJI R</h2>
+
+            </div>
+
+            <div class="nav-menu">
+                <nav>
+                    <ul>
+                        <a class="a" href="home.html">Home</a> /
+                        <a class="a" href="articles.html">Articles</a> /
+                        <a class="a" href="projects.html">Projects</a> /
+                        <a class="a" href="contact.html">Contact</a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <div class="role-name">
+            <h1 class="head">Frontend Developer</h1>
+            <p class="head">html only with proper layout, no styling
+            </p>
+        </div>
+
+
+    </header>
+    <!-- -------------------contact--------------------- -->
+    <section class="contact-container">
+        <h2 class="contact-head">Get in Touch</h2>
+        <p style="text-align: center;">If you have any questions, suggestions, or just want to say hello,<br>
+feel free to contact me through the form below:</p>
+
+<form id="formcontainer">
+    <div class="form">
+   
+    <input type="text" placeholder="Your Name:" name="name"  class="line-input">
+
+   
+    <input type="email" placeholder="Your Email:" class="line-input">
+
+ 
+    <textarea type="text" placeholder="Your Message:" class="msg"></textarea>
+
+    <button type="submit" class="btn">send massage</button>
+    
+
+    </div>   
+</form>
+
+    </section>
+    <!-- --------------------------------------footer--------------------------------------------------- -->
+     <footer>
+        <p>© all rights reserved 2025</p>
+    </footer>
+</body>
+
+</html>
